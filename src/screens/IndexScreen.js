@@ -1,10 +1,10 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 
-const ImageScreen = () => {
+const IndexScreen = () => {
     return(
         <View>
-            <Text style={styles.headerStyle}>Image Screen!</Text>
+            <Text style={styles.headerStyle}>Index Screen!</Text>
         </View>
     )
 }
@@ -16,4 +16,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default ImageScreen
+export default IndexScreen
